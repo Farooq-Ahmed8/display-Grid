@@ -71,3 +71,25 @@ h1{
         grid-row: auto;
     }
 }
+@media(max-width: 355px){
+    .container{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(9 , 100px);
+        flex-wrap: wrap;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    #children1{
+        grid-column: auto;
+        grid-row: auto;
+    }
+    #children2{
+        grid-column: auto;
+        grid-row: auto;
+    }
+    #children6{
+        grid-column: auto;
+        grid-row: auto;
+    }
+}
